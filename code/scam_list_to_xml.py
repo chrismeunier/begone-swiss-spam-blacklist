@@ -4,14 +4,14 @@ Extract patterns and label number subsets as call centers to block highly likely
 Turn them into a xml file to be imported in the Begone app.
 """
 
-import requests
-import re
-import plistlib
-from bs4 import BeautifulSoup
-from pathlib import Path  # for working locally
-from datetime import datetime
 import pandas as pd
+import plistlib
+import re
+import requests
+from bs4 import BeautifulSoup
 from collections import Counter
+from datetime import datetime
+from pathlib import Path  # for working locally
 
 BASE_URL = "https://www.local.ch/fr/numeros-telemarketing-identifies?page="
 phone_number_href_pattern = re.compile(r"/telemarketer/*")
@@ -19,6 +19,8 @@ phone_number_href_pattern = re.compile(r"/telemarketer/*")
 ROOT_PATH = Path(__file__).parent.parent
 ARCHIVE_PATH = ROOT_PATH / "archive"
 text_file = "spam_numbers.txt"
+
+CUT_OFF_PERCENT = 10.0
 
 
 def main():
@@ -40,7 +42,6 @@ def main():
         "pattern_numbers*.txt",
         "Spam (local.ch++)",
     )
-
 
 
 # xml file creation from list of spam numbers formatted as "+411234567890"
@@ -161,7 +162,6 @@ def spam_patterns_txt_files_creation(folder_path: Path):
     df_filtered = df[
         ~df["minus_4"].isin(minus_4_prefixes) & ~df["minus_3"].isin(minus_3_prefixes)
     ]
-    CUT_OFF_PERCENT = 10.0
     minus_2_prefixes_temp = (
         df_filtered[df_filtered["spam_%_2"] >= CUT_OFF_PERCENT]
         .loc[:, "minus_2"]
