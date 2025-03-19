@@ -10,6 +10,8 @@ HREF_PATTERN = re.compile(r"/telemarketer/*")
 ROOT_PATH = Path(__file__).parent.parent
 ARCHIVE_PATH = ROOT_PATH / "archive"
 TEXT_FILE = "spam_numbers.txt"
+XML_FILE = "swiss_spam_callers.xml"
+XML_PATTERNS_FILE = "swiss_spam_patterns.xml"
 
 CUT_OFF_PERCENT = 10.0
 
@@ -22,7 +24,7 @@ def rename_to_today(folder: Path, filename: str):
     source.replace(target)
 
 
-def get_most_recent_txt_file(FOLDER: Path, filename_pattern: str = "spam_numbers*"):
+def get_most_recent_txt_file(FOLDER: Path = ARCHIVE_PATH, filename_pattern: str = "spam_numbers*"):
     """Looks for files in FOLDER with filename_pattern in their name.
     Their name should end with a timestamp separated from the rest with an underscore.
     """
