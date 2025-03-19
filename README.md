@@ -3,7 +3,7 @@
 Lists for blocking spam calls in Switzerland using the Begone app
 
 On iOS it is possible to use the [app Begone](https://apps.apple.com/ch/app/begone-blocage-spam-appel/id1596818195) to block phone numbers.
-It also offers the option to block whole ranges of numbers.
+It also offers the option to block ranges of phone numbers.
 
 ## Lists and sources
 
@@ -18,3 +18,9 @@ The lists were sourced from [local.ch](https://www.local.ch/en/verified-telemark
 - Download the lists on your phone (recommended: patterns + standalone).
 - Install the Begone app and follow its installation instructions.
 - In Begone import new numbers from the downloaded files. Voilà!
+
+### Disclaimer
+
+No guarantee whatsoever is given. Marketing calls may not be blocked by these lists for a variety of reasons: _local.ch_ not listing their number, usage of spoofing to fake a valid number, etc.
+
+The chance that a valid number might be blocked by the patterns list exists too. If this happens you can add the number to the allowed numbers in Begone, and report it here of course.
