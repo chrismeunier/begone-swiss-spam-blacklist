@@ -14,6 +14,7 @@ from helpers import (
 
 def spam_patterns_txt_files_creation(folder_path: Path):
     spam_text_file = get_most_recent_txt_file(folder_path)
+    print(f"File used for pattern extraction: {spam_text_file}")
     with open(spam_text_file, "r") as f:
         # Remove temporarily the +41
         spam_number_list = [line.strip()[3:] for line in f]

@@ -18,6 +18,7 @@ def write_xml_file(
 ):
     # xml file creation from list of spam numbers formatted as "+411234567890"
     most_recent_file = get_most_recent_txt_file(filename_pattern=txt_file_glob)
+    print(f"File used: {most_recent_file}")
 
     with open(most_recent_file, "r", encoding="utf-8") as text_file:
 
@@ -30,6 +31,7 @@ def write_xml_file(
 
 
 def dump_plist(xml_filename: str, plist_body: list):
+    print(f"Writing in {ROOT_PATH/xml_filename}")
     with open(ROOT_PATH / xml_filename, "wb") as xml_file:
         plistlib.dump(plist_body, xml_file)
 
