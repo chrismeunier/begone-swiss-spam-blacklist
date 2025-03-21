@@ -50,7 +50,7 @@ jobs:
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add ./*.xml
         git add ./archive
-        git commit -m "Git Action: Add updated spam list [skip ci]" || echo "No changes to commit"
-        git push origin main
+        git commit -m "Git Action: Add updated spam list"
+        git push
     # - name: Commit and Push Changes
       # run: | # modify the git add to match what is changed when running the script
