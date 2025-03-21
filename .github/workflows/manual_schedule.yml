@@ -5,8 +5,8 @@ name: Manual workflow
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  schedule:
-    - cron: '0 12 * * 1' # runs every Monday at 12:00
+  # schedule:
+    # - cron: '0 12 * * 1' # runs every Monday at 12:00
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -39,15 +39,22 @@ jobs:
     - name: Run main script
       run: python code/main.py
 
-    - name: Configure Git
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-    - name: Commit and Push Changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: | # modify the git add to match what is changed when running the script
-        git add ./*.xml
-        git add ./archive
-        git commit -m "Git Action: Add updated spam list [skip ci]" || echo "No changes to commit"
-        git push origin main
+    - name: Commit changes
+      uses: iarekylew00t/verified-bot-commit@v1
+      with:
+        message: "Git Action: Add updated spam list"
+        files: |
+          *.xml
+          archive
+    # - name: Configure Git
+    #   run: |
+    #     git config user.name "github-actions[bot]"
+    #     git config user.email "github-actions[bot]@users.noreply.github.com"
+    # - name: Commit and Push Changes
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   run: | # modify the git add to match what is changed when running the script
+    #     git add ./*.xml
+    #     git add ./archive
+    #     git commit -m "Git Action: Add updated spam list [skip ci]" || echo "No changes to commit"
+    #     git push origin main
