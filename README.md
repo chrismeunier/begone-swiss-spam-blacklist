@@ -9,12 +9,12 @@ It also offers the option to block ranges of phone numbers.
 
 The lists were sourced from [local.ch](https://www.local.ch/en/verified-telemarketing-numbers).
 
-- **swiss_spam_callers.xml**: This list is simply all numbers as listed on local.ch.
-- **swiss_spam_patterns.xml**: This list is made of patterns covering phone number ranges where many spam numbers are observed. It will thus block many additional numbers that are very likely spam. It also contains the numbers not covered by any pattern.
+- **begone_autoblock.xml**: This list is simply all numbers as listed on local.ch.
+- **begone_list.xml**: This list is made of patterns covering phone number ranges where many spam numbers are observed. It will thus block many additional numbers that are very likely spam. It also contains the numbers not covered by any pattern.
 
 ## Usage
 
-- Download the list on your phone (recommended: patterns).
+- Download the list on your phone (recommended: begone_list.xml).
 - Install the Begone app and follow its installation instructions.
 - In Begone import new numbers from the downloaded file. Voilà!
 
