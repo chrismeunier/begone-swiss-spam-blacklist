@@ -10,8 +10,8 @@ HREF_PATTERN = re.compile(r"/telemarketer/*")
 ROOT_PATH = Path(__file__).parent.parent
 ARCHIVE_PATH = ROOT_PATH / "archive"
 TEXT_FILE = "spam_numbers.txt"
-XML_FILE = "swiss_spam_callers.xml"
-XML_PATTERNS_FILE = "swiss_spam_patterns.xml"
+XML_FILE = "begone_autoblock.xml"
+XML_PATTERNS_FILE = "begone_list.xml"
 
 CUT_OFF_PERCENT = 10.0
 
