@@ -29,15 +29,18 @@ def write_xml_file(
             for spam_number in text_file
         ]
 
-    dump_plist(ROOT_PATH / xml_filename, plist_body)
-    return ROOT_PATH / xml_filename
+    return dump_plist(ROOT_PATH / xml_filename, plist_body)
 
 
-def dump_plist(xml_file: Path, plist_body: list):
-    new_xml = xml_file.parent / (xml_file.stem + "_new" + xml_file.suffix)
+def dump_plist(xml_file: Path, plist_body: list, is_new=True) -> Path:
+    if is_new:
+        new_xml = xml_file.parent / (xml_file.stem + "_new" + xml_file.suffix)
+    else:
+        new_xml = xml_file
     print(f"Writing in {new_xml}")
     with open(new_xml, "wb") as f:
         plistlib.dump(plist_body, f)
+    return new_xml
 
 
 def xml_entry_from_number(number: str, title: str):
@@ -69,8 +72,7 @@ def append_xml_file(
         ]
         plist_body.extend(new_plist_body)
 
-    dump_plist(ROOT_PATH / xml_filename, plist_body)
-    return ROOT_PATH / xml_filename
+    return dump_plist(ROOT_PATH / xml_filename, plist_body, is_new=False)
 
 
 def main():
