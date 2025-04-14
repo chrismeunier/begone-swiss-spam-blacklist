@@ -9,6 +9,7 @@ from helpers import (
     CUT_OFF_PERCENT,
     rename_to_today,
     get_most_recent_txt_file,
+    copy_as_latest,
 )
 
 
@@ -75,7 +76,7 @@ def spam_patterns_txt_files_creation(folder_path: Path):
         for number in standalone_numbers["base"]:
             # Re-add the +41
             output.write("+41" + number + "\n")
-    rename_to_today(folder_path, standalone_filename)
+    copy_as_latest(rename_to_today(folder_path, standalone_filename))
 
     # Save the patterns
     pattern_filename = "pattern_numbers.txt"
@@ -89,7 +90,7 @@ def spam_patterns_txt_files_creation(folder_path: Path):
         for pattern in minus_2_prefixes:
             output.write("+41" + pattern + 2 * "#" + "\n")
 
-    rename_to_today(folder_path, pattern_filename)
+    copy_as_latest(rename_to_today(folder_path, pattern_filename))
 
 
 def main():

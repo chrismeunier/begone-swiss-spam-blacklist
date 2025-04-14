@@ -11,6 +11,7 @@ from helpers import (
     ARCHIVE_PATH,
     TEXT_FILE,
     rename_to_today,
+    copy_as_latest,
 )
 
 failed_pages = []
@@ -25,7 +26,6 @@ def create_initial_text_file():
     for fail in failed_pages:
         read_write_current_page(fail)
     print(f"Read data from {page-1} pages.")
-    rename_to_today(ARCHIVE_PATH, TEXT_FILE)
 
 
 def read_write_current_page(page_number: int):
@@ -66,8 +66,10 @@ def read_write_current_page(page_number: int):
     return url_read_correctly
 
 
+
 def main():
     create_initial_text_file()
+    copy_as_latest(rename_to_today(ARCHIVE_PATH, TEXT_FILE))
 
 
 if __name__ == "__main__":
