@@ -37,6 +37,7 @@ def get_version_file(f: Path):
 
 def update_version_file(f: Path):
     version_file = get_version_file(f)
+    print(f"\tVersion file to update: {version_file}")
 
     with open(version_file, "r") as fv:
         version = fv.readline().strip().split(".")
@@ -44,9 +45,11 @@ def update_version_file(f: Path):
     major = int(version[0])
     minor = int(version[1])
     count = int(count)
+    print(f"\tBefore: {major}.{minor}, {count}")
     # Increment
     version_up = ".".join([str(major), str(minor + 1)])
     count_up = str(count + 1)
+    print(f"\tAfter: {version_up}, {count_up}")
 
     with open(version_file, "w") as fv_up:
         fv_up.write(version_up + "\n")
