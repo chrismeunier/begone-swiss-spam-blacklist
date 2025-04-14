@@ -13,6 +13,7 @@ from helpers import (
     rename_to_today,
 )
 
+failed_pages = []
 
 def create_initial_text_file():
     """Called to scrape local.ch and get the complete list of spam numbers in a text file."""
@@ -20,6 +21,9 @@ def create_initial_text_file():
     page = 1
     while read_write_current_page(page):
         page += 1
+    # Retry if needed (but only once)
+    for fail in failed_pages:
+        read_write_current_page(fail)
     print(f"Read data from {page-1} pages.")
     rename_to_today(ARCHIVE_PATH, TEXT_FILE)
 
@@ -28,7 +32,13 @@ def read_write_current_page(page_number: int):
     URL = BASE_URL + str(page_number)
     print(f"url : {URL}")
 
-    r = requests.get(URL)
+    try:
+        r = requests.get(URL)
+    except requests.exceptions.ConnectionError as err:
+        print(f"URL failed to load {URL}\n\tWith error: {err}")
+        failed_pages.append(page_number)
+        return True # continue as usual
+
     url_read_correctly = r.status_code == requests.codes.ok
     print(f"page {page_number} request success : {url_read_correctly}")
     if not url_read_correctly:
