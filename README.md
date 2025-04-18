@@ -14,9 +14,9 @@ The lists were sourced from [local.ch](https://www.local.ch/en/verified-telemark
 
 ## Usage
 
-- Download the list on your phone (recommended: begone_list.xml).
 - Install the Begone app and follow its installation instructions.
-- In Begone import new numbers from the downloaded file. Voilà!
+- In Begone go in the Community lists and install the list for Switzerland. Voilà!
+- Keep it up to date from time to time, the list is updated at most once a week.
 
 ### Disclaimer
 
