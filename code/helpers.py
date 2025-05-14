@@ -5,9 +5,17 @@ import filecmp
 from pathlib import Path
 from datetime import datetime
 from typing import Tuple
+from random import shuffle
 
 
-BASE_URL = "https://www.local.ch/fr/numeros-telemarketing-identifies?page="
+LOCAL_CH_URLS = [
+    "https://www.local.ch/de/verifizierte-telefonmarketing-nummern?page=",
+    "https://www.local.ch/fr/numeros-telemarketing-identifies?page=",
+    "https://www.local.ch/en/verified-telemarketing-numbers?page=",
+    "https://www.local.ch/it/numeri-telemarketing-identificati?page=",
+]
+shuffle(LOCAL_CH_URLS)
+BASE_URL = LOCAL_CH_URLS.pop()
 HREF_PATTERN = re.compile(r"/telemarketer/*")
 
 ROOT_PATH = Path(__file__).parent.parent
