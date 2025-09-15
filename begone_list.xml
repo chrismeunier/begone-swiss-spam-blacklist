@@ -2368,6 +2368,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41225083117</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41225083287</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
@@ -3549,6 +3559,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41244258573</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41245001319</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
 	</dict>
@@ -7039,6 +7059,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41345080238</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41345080371</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
 	</dict>
@@ -14768,6 +14798,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41625896527</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41625896528</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
@@ -15208,6 +15248,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41718082607</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41718082654</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
@@ -15239,6 +15289,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41718082731</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41718082735</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
 	</dict>
@@ -21009,6 +21069,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41912083255</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41912104500</string>
 		<key>title</key>
 		<string>Spam (local.ch)</string>
 	</dict>
