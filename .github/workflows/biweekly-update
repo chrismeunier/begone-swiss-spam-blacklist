@@ -1,0 +1,44 @@
+# the automated part is inspired from https://fenilsonani.com/articles/python-github-actions-api-email-automation
+name: Automatic Biweekly workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule:
+    - cron: '0 0 */14 * *' # runs every two weeks
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  run-main-script:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      # with:
+      #   persist-credentials: false
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r code/requirements.txt
+    - name: Run main script
+      run: python code/main.py
+
+    - name: Commit changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add ./*.xml
+        git add ./*.version
+        git add ./archive
+        git commit -m "Git Action: Add updated spam list"
+        git push
