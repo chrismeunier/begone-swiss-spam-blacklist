@@ -268,16 +268,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41215092543</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41215102424</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -738,16 +728,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41215307094</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41215391259</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -979,16 +959,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41215526494</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41215526498</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -1489,6 +1459,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41215557126</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41215557160</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -6418,16 +6398,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41215896342</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41215896395</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -6729,16 +6699,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41218002413</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41218003513</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -7069,16 +7029,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41225013139</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41225017091</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -8098,6 +8048,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41225521262</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41225521851</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -8698,6 +8658,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41225592972</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41225592983</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -9148,27 +9118,7 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41225896137</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41225896138</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41225896139</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -10848,6 +10798,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41245520339</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41245521083</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -10959,16 +10919,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41245601059</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41245602008</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -11878,16 +11828,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41265524190</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41265610936</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -12179,6 +12119,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41273001822</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41273001823</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -12968,6 +12918,26 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41315155909</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41315155932</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41315157020</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -13499,6 +13469,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41315665248</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41315880043</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -15038,6 +15018,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41326133752</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41326133753</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -16138,6 +16128,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41415050403</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41415080149</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -16159,6 +16159,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41415081573</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41415082140</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -16498,16 +16508,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41415391711</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41415391832</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -16569,16 +16569,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41415510014</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41415510016</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -18378,16 +18368,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41435895884</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41435895891</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -19658,6 +19638,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41445035597</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41445035598</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -20138,16 +20128,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41445164720</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41445164731</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -20389,6 +20369,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41445231715</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41445232769</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -20988,16 +20978,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41445526581</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41445527203</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -21239,16 +21219,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41445860695</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41445860986</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -21569,16 +21539,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41445898492</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41446689722</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -22118,6 +22078,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41525207490</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41525208184</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -22238,6 +22208,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41525896817</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41528494403</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -22319,6 +22299,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41554201517</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41554515858</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -22678,16 +22668,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41565087287</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41565117613</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -22808,6 +22788,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41565208875</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41565391636</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -22819,16 +22809,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41565400025</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41565510137</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -23169,16 +23149,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41582700508</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41582700585</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -23698,16 +23668,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41585906199</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41585906316</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -23839,16 +23799,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41586896411</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41586896496</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -24518,6 +24468,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41615050155</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41615100608</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -24939,6 +24899,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41615615234</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41615615235</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -25828,6 +25798,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41625525106</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41625525110</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -25909,6 +25889,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41625525164</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41625525179</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -26269,6 +26259,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41715200092</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41715200095</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -28568,27 +28568,7 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41715756777</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41715756786</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41715756798</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -28609,6 +28589,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41715880617</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41715880640</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -28749,6 +28739,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41715880959</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41715896835</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -32298,16 +32298,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41782465998</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41782467830</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -32349,16 +32339,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41782541141</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41782544608</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -33768,16 +33748,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41789514254</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41789524713</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -33819,16 +33789,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41789584284</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41789656831</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -34388,16 +34348,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41796053596</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41796125473</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -34568,6 +34518,16 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
+		<string>+41797352376</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
 		<string>+41797712623</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -34729,16 +34689,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41800001716</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41800001748</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -35668,7 +35618,7 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41912510037</string>
+		<string>+41912665281</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -35739,16 +35689,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41912905124</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41912905125</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
@@ -35869,16 +35809,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41912905139</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+41912905144</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
