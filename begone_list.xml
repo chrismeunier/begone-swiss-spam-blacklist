@@ -17792,5 +17792,15 @@
 		<key>title</key>
 		<string>Spam (local.ch)</string>
 	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41779628459</string>
+		<key>title</key>
+		<string>Spam (local.ch)</string>
+	</dict>
 </array>
 </plist>

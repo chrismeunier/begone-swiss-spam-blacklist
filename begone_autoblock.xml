@@ -27648,16 +27648,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+41715756441</string>
-		<key>title</key>
-		<string>Spam</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+41715756442</string>
 		<key>title</key>
 		<string>Spam</string>
@@ -30999,6 +30989,16 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+41779615377</string>
+		<key>title</key>
+		<string>Spam</string>
+	</dict>
+	<dict>
+		<key>addNational</key>
+		<string>true</string>
+		<key>category</key>
+		<string>0</string>
+		<key>number</key>
+		<string>+41779628459</string>
 		<key>title</key>
 		<string>Spam</string>
 	</dict>
